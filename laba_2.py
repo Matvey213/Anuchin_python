@@ -40,10 +40,10 @@ else:
     print("числа равны")
 
     
-
 num_1 = input("число 1: ")
 num_2 = input("число 2: ")
 num_3 = input("число 3: ")
 
-sss = {num_1 , num_2 , num_3}
+number = [num_1, num_2, num_3]
+sss = len(set(number))
 print(sss)
