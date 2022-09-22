@@ -34,8 +34,10 @@ if num_1 > num_2 > num_3:
 elif num_3 > num_2 > num_1:
     print(num_3)
 
+elif num_2 > num_1 > num_3:
+    print (num_2)
 else:
-    print(num_2)
+    print("числа равны")
 
     
 
